@@ -180,6 +180,92 @@ body {
   left: 32vh;
   top: -5px;
 }
+@media screen and (max-width: 280px) {
+  body {
+    height: 100%;
+    margin: 0;
+    overflow-x: hidden;
+    overflow-y: auto;
+    background: #000;
+    color: #B4B39A;
+  }
+
+  .img img {
+    height: 40vw;
+    width: 40vw;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 5vh;
+  }
+
+  .meio {
+    background: transparent;
+    backdrop-filter: blur(10px);
+    box-shadow: 0 0 7px 7px white, 0 0 3px 2px #fff;
+    border: solid 4px transparent;
+    border-image: linear-gradient(40deg, blue, purple) 1;
+    height: 50vh;
+    width: 70vw;
+    position: absolute;
+    top: 10vh;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+
+  .meio h1,
+  .meio h2 {
+    font-size: 1.5rem;
+    width: auto;
+  }
+
+  .meio h2 {
+    color: red;
+  }
+
+  .box {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url(muro.jpeg);
+    overflow: hidden;
+    opacity: 0.1;
+  }
+
+  .customCheckBoxHolder {
+    position: absolute;
+    top: 30vh;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+
+  .customCheckBox .inner {
+    font-size: 12px;
+    font-weight: 900;
+    pointer-events: none;
+    transition-timing-function: cubic-bezier(0.25, 0.8, 0.25, 1);
+    transition-duration: 300ms;
+    transition-property: transform;
+    transform: translateY(0px);
+  }
+
+  .meio p {
+    box-sizing: border-box;
+    overflow: hidden;
+    padding: 10px;
+    width: calc(100% - 20px);
+    position: absolute; /* Garantir que o posicionamento seja consistente */
+    top: 40vh;
+  }
+
+  .whatts img {
+    position: absolute;
+    left: 120%;
+    top: -2px;
+    transform: translateX(-50%);
+  }
+}
 @media screen and (max-width: 434px) {
   body {
     height: 100%;
