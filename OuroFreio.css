@@ -205,7 +205,7 @@ body {
     border: solid 4px transparent;
     border-image: linear-gradient(40deg, blue, purple) 1;
     height: 50vh;
-    width: 80vw;
+    width: 70vw;
     position: absolute;
     top: 10vh;
     left: 50%;
