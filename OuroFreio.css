@@ -204,7 +204,7 @@ body {
     box-shadow: 0 0 7px 7px white, 0 0 3px 2px #fff;
     border: solid 4px transparent;
     border-image: linear-gradient(40deg, blue, purple) 1;
-    height: 50vh;
+    height: 70vh;
     width: 70vw;
     position: absolute;
     top: 40vh;
