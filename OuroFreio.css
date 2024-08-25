@@ -207,7 +207,7 @@ body {
     height: 50vh;
     width: 70vw;
     position: absolute;
-    top: 10vh;
+    top: 30vh;
     left: 50%;
     transform: translateX(-50%);
   }
